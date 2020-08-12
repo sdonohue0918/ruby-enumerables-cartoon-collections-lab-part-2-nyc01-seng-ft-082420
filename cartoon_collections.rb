@@ -32,5 +32,5 @@ def find_valid_calls(planeteer_calls)
     planeteer_calls.find {|element| planeteer_calls[index.to_i] == valid_calls[index.to_i]}
   end
 
-  
+
 end
