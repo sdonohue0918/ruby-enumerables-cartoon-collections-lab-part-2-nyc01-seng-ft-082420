@@ -31,7 +31,7 @@ def find_valid_calls(planeteer_calls)
   #while element_index < planeteer_calls.length && element_index < valid_calls.length do
     planeteer_calls.any? {|element| valid_calls.include? element}
 
-    planeteer_calls.find {|index| planeteer_calls[index.to_i] == valid_calls[index.to_i]}
+    planeteer_calls.find {|i| planeteer_calls[i] == valid_calls[i]}
 
 
 
